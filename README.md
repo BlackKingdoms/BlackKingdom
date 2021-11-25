@@ -1,5 +1,5 @@
 
-## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am Black Kingdom 🎲🎲Enjoy My Profile 🚀🚀
+## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am Black Kingdom ☠🔱Enjoy My Profile 🔱☠
 ![My card name](https://cardivo.vercel.app/api?name=Black%20Kingdoms%20🎲🎲&description=Hi,%20i%27m%20a%20%20i%27m%20simple%20developer%20and%20i%27m%20in%20sri%20lanka%20Nice%20to%20meet%20you%20%F0%9F%91%8B&image=https://telegra.ph/file/185c241c27145c2520a94.jpg?v=4&backgroundColor=%#000000&github=BlackerMoskie&pattern=leaf&colorPattern=%23eaeaea)
 [![Youtube](https://img.shields.io/badge/Adesha%20Creations%20YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://youtube.com/channel/UC-P4xVFvCgqQuUx9PrN2DIA)
 [![WhatsApp](https://img.shields.io/badge/BLACK%20KINGDOM%20WORLD%20SUPPORT%20GROUP%20(1)-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EnXz21ZJuh5ADJIuK7bIls)
