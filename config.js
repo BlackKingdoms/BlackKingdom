@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Maraya.
+/* Copyright (C) 2020 BlackKingdoms.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Maraya - yasasdileepa
+BlackKingdom - BlackKingdoms
 */
 
 const { Sequelize } = require('sequelize');
@@ -20,7 +20,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'v0.16.8 Public Stable',
-    SESSION: process.env.MARAYA_SESSION === undefined ? '' : process.env.MARAYA_SESSION,
+    SESSION: process.env.BLACKKINGDOM_SESSION === undefined ? '' : process.env.BLACKKINGDOM_SESSION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/24cacd9938446a38180fd.png' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
