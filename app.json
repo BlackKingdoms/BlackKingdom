@@ -1,14 +1,14 @@
 {
-    "name": "Maraya Bot",
-    "description": "Maraya is a chat bot for WhatsApp.",
+    "name": "👹👹 BLACKKINGDOM WHATSAPP BOT👹👹 Bot",
+    "description": "BlackKingdoms is a chat bot for WhatsApp.",
     "logo": "https://telegra.ph/file/24cacd9938446a38180fd.png",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai", "Maraya"],
-    "repository": "https://github.com/yasasdileepa/Maraya",
+    "repository": "https://github.com/BlackKingdoms/BlackKingdom",
     "website":   "https://chat.whatsapp.com/E76o3j6g2NpFZ",
     "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
     "stack": "container",
     "env": {
-        "MARAYA_SESSION": {
+        "BLACKKINGDOM_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්",
             "required": true
         },
