@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": BlackKingdomDev",
     "STRINGS": {
         "_asena": {
             "COMMAND": "විධානය",
