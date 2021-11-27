@@ -1,9 +1,9 @@
-FROM fusuf/whatsasena:latest
-##Queen Mizuki
-RUN git clone https://github.com/MrJoka-Thejaka/Mizuki /root/QueenMizuki
-WORKDIR /root/QueenMizuki/
-ENV TZ=Europe/Istanbul
-RUN yarn add supervisor -g
+FROM BlackKingdoms/BlackKingdom
+
+RUN git clone https://github.com/BlackKingdoms/BlackKingdom /root/BlackKingdom
+WORKDIR /root/BlackKingdom/
+ENV TZ=Asia/Colombo
+RUN npm install supervisor -g
 RUN yarn install --no-audit
 
 CMD ["node", "bot.js"]
