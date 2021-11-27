@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Maraya.
+/* Copyright (C) 2020 Black Kingdom.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Maraya - yasasdileepa
+BlackKingdom - ADEESHA
 */
 
 const Asena = require('../events');
@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'😈💀Black Kingdom PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -85,7 +85,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'😈💀Black Kingdom PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
@@ -126,7 +126,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'😈💀Black Kingdom PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -162,7 +162,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'😈💀Black Kingdom PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
