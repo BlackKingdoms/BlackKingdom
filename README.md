@@ -7,17 +7,17 @@
 [![Youtube](https://img.shields.io/badge/SL_Adesha%20@_Dilipa_Creations%20YouTube%20Channel-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=youtube)](https://youtube.com/channel/UCYpzhRBGT4x3avaE3DR5_jA)
 [![WhatsApp](https://img.shields.io/badge/BLACK%20KINGDOM%20WORLD%20SUPPORT%20GROUP%20(1)-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/EnXz21ZJuh5ADJIuK7bIls)
 
-#### සරල ක්‍රමය
+#### Simple Method
 
-#### ඔබට පහසුවෙන්ම Repl.it මඟින් QR ගන්න පුලුවන්..පහල  බටනය භාවිත කරන්න
+#### You can Get Qr From Repl.it..Toutch button down bellow
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@BlackKingdoms/BLACKKINGDOM-QR)
 ```
-BlackKingdom bot ගොඩනැගීමට ඔබට ජංගම දුරකථන 2 ක් අවශ්‍ය වේ!
-ඔබ දෙවන උපාංගයෙන් bot ක්‍රියා කරනු ඇත. 
-ඔබ පළමු උපාංගය සමඟ පමණක් QR කේතය generate කරනු ඇත.
-පළමු උපාංගයෙන් ඔබට COBRA Bot install කිරීමට අවශ්‍යයි..
+You need 2 mobile phones to build BlackKingdom bot!
+You will run the bot from the second device.
+You will only generate a QR code with the first device.
+You need to install BlackKingdom Bot from the first device.
 ```
-#### QR කේතය ලබා ගත් පසු පහල බටනය ඔබලා Bot deploy කරන්න
+#### Once you have the QR code, click on the button below to deploy Bot
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackKingdoms/BlackKingdom)
 
 
