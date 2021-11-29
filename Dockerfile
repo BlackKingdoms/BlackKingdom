@@ -1,8 +1,8 @@
-FROM blackamda/queenamdi:public
+FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/BlackKingdoms/BlackKingdom /root/QueenAmdi
-WORKDIR /root/QueenAmdi/
-ENV TZ=Asia/Colombo
+RUN git clone https://github.com/BlackKingdoms/BlackKingdom /root/BlackKingdom
+WORKDIR /root/BlackKingdom/
+ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
