@@ -214,6 +214,7 @@
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
             "AFTER_UPDATE": "*💬 maraya Restarting Automatically!*"
+        },
         "weather": {
             "WEATHER_DESC": "කාලගුණය පෙන්වයි.",
             "NEED_LOCATION": "*කරුණාකර ස්ථානයක් ලියන්න!*\n*Example:* ```.weather Colombo```",
