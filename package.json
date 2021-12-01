@@ -1,7 +1,7 @@
 {
-  "name": "BlackKingdom",
+  "name": "blackkingdoms",
   "version": "0.16.5",
-  "description": "BlackKingdom - Whatsapp userbot. ",
+  "description": "blackkingdom - Whatsapp userbot. ",
   "main": "./BlackKingdom/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
@@ -13,8 +13,8 @@
   "keywords": [
     "whatsapp"
   ],
-  "author": "BlackKingdomDev / BlackKingdoms",
-  "developer": "BlackKingdomDev / @BlackKingdoms",
+  "author": "blackkingdomDev / blackkingdoms",
+  "developer": "BlackKingdomDev / @blackkingdoms",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/BlackKingdoms/BlackKingdom/issues"
