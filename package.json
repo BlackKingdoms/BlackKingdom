@@ -1,7 +1,7 @@
 {
-  "name": "blackkingdoms",
+  "name": "BlackKingdoms",
   "version": "0.16.5",
-  "description": "blackkingdom - Whatsapp userbot. ",
+  "description": "BlackKingdom - Whatsapp userbot. ",
   "main": "./BlackKingdom/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
