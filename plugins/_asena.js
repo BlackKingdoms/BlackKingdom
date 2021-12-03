@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 Maraya.
+/* Copyright (C) 2020 Yasas dileepa.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@ const Lang = Language.getString('_asena');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'maraya ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -75,7 +75,7 @@ if (Config.WORKTYPE == 'private') {
                         } else {
                             HANDLER = '.';
                         }
-                        CMD_HELP += '💀 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                        CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
                         if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
@@ -85,14 +85,14 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'🔱MARAYA PRIVATE🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'maraya ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -117,7 +117,7 @@ else if (Config.WORKTYPE == 'public') {
                     } else {
                         HANDLER = '.';
                     }
-                    CMD_HELP += '💀 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                    CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
                     if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
                     if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                     if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
@@ -126,7 +126,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'🔱black kindom PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -152,7 +152,7 @@ else if (Config.WORKTYPE == 'public') {
                         } else {
                             HANDLER = '.';
                         }
-                        CMD_HELP += '💀 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
+                        CMD_HELP += '🔱 ' + Lang.COMMAND + ':* ```' + (cmatch.length >= 3 ? (HANDLER + cmatch[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
                         if (command.desc !== '') CMD_HELP += '*⚓ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
                         if (command.usage !== '') CMD_HELP += '*⌨️ ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
                         if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
@@ -162,7 +162,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PUBLIC💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'🔱MARAYA PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
