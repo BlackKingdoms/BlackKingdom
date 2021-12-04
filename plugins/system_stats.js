@@ -67,16 +67,8 @@ else if (Config.WORKTYPE == 'public') {
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*Copyright © 2021 | ☠ Maraya ☠ |*' })
-    } 
-    const buttonMessage = {
-        contentText: MSG,
-        footerText: 'ǫᴜᴇᴇɴ ᴀᴍᴅɪ © ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ',
-        buttons: buttons,
-        headerType: 4,
-        imageMessage: media.message.imageMessage    
-    }
-    await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage);
-}))
+     }
+    }));
 
     Asena.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
 
