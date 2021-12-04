@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yasas dileepa.
+/* Copyright (C) 2020 Adeesha.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-Maraya - yasasdileepa
+Maraya - Adeesha
 */
 
 const Asena = require('../events');
@@ -15,7 +15,7 @@ const Lang = Language.getString('_asena');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'BLACK ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'😈💀MARAYA PRIVATE💀😈\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'```*******************************************😈💀BLACKKINGDOM PRIVATE💀😈*******************************************```\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
