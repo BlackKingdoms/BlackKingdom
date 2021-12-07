@@ -19,6 +19,7 @@ function addCommand(info, func) {
         onlyGroup: info['onlyGroup'] === undefined ? false : info['onlyGroup'],
         onlyPinned: info['onlyPinned'] === undefined ? false : info['onlyPinned'],
         onlyPm: info['onlyPm'] === undefined ? false : info['onlyPm'],
+        delowndinukacmd: info['delowndinukacmd'] === undefined ? true : info['delowndinukacmd'],
         deleteCommand: info['deleteCommand'] === undefined ? true : info['deleteCommand'],
         desc: info['desc'] === undefined ? '' : info['desc'],
         usage: info['usage'] === undefined ? '' : info['usage'],
