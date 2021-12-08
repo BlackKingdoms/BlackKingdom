@@ -9,6 +9,8 @@ Maraya - Adeesha
 const Asena = require('../events');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
+const fs = require("fs")
+const amdi = fs.readFileSync('./media/amdibot.mp3') 
 
 const Language = require('../language');
 const Lang = Language.getString('_asena');
@@ -49,7 +51,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'```*******************************************😈💀BLACKKINGDOM PRIVATE💀😈*******************************************```\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍⚍\n' + ' ```⚕️⛨ BLACKKINGDOM PANEL ⛨⚕️```\n' + '⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );    
         } else {
 
@@ -162,7 +164,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'🔱MARAYA PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'🔱BLACKKINGDOM PUBLIC🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
