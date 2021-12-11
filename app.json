@@ -19,7 +19,17 @@
         "LANGUAGE": {
             "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා En ලෙස සඳහන් කරන්න. ",
             "required": true,
-            "value": "En"
+            "value": "en"
+        },
+        "ANTİ_LİNK": {
+            "description": "Link Blocking System.ගෲපයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දමයි",
+            "required": true,
+            "value": "true"
+        },
+        "INBO_BLOCK": {
+            "description": "Inbox Blocking System. ඉන්බොක්ස් මැසේජ් දමන්නන් බ්ලොක් කරයි",
+            "required": true,
+            "value": "false"
         },
         "HANDLERS": {
             "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
