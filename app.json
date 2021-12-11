@@ -36,10 +36,20 @@
             "required": true,
             "value": "^[.]"
         },
+        "BAD_KICK": {
+            "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
+            "required": true,
+            "value": "true"
+        },
+        "SPAM_KICK": {
+            "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
+            "required": true,
+            "value": "true"
+        },
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "HEROKU": {
             "description": "Heroku",
@@ -47,15 +57,15 @@
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "යම්කිසි රහස් වචනයක් මෙහි සඳහන් කරන්න. එය කා සමඟවත් බෙදානොගන්න.",
+            "description": "Heroku Api Key.",
             "required": true
         },
         "HEROKU_APP_NAME": {
-            "description": "ඉහත යෙදු රහස් වචනයම යොදන්න.",
+            "description": "Heroku App name.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "Group එකක් mute කිරිමෙදි ලැබෙන පනිවිඩය. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+            "description": "mute msg",
             "required": false,
             "value": "default"
         },
