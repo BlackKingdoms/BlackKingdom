@@ -59,7 +59,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```😈💀 Hey There! I'm Online now. 😉```\n\n*Version:* ```v1.5 - Stable```\n\n*Developer:* ```Yasas dileepa ```\n\n\n\n*channel :*https://www.youtube.com/channel/UCYpzhRBGT4x3avaE3DR5_jA \n\n```Thank You For Using maraya😈```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔥 Hey There! I'm Online now. 🔥```\n\n*Version:* ```v1.5 - Stable```\n\n*Developer:* ```adisha lakshitha and his team```\n\n\n\n*channel https://www.youtube.com/channel/UCYpzhRBGT4x3avaE3DR5_jA :* \n\n```Thank You For Using Black Kindom Bot```"})
 
     }
     else {
