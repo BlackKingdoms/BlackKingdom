@@ -87,14 +87,14 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'🔱MARAYA PRIVATE🔱\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
+                message.jid,'```⚕️⛨ BLACKKINGDOM PANEL ⛨⚕️```\n\n' + CMD_HELP, MessageType.text,{quoted: message.data}
             );
         }
     }));
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'menu ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'BLACK ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
         if (message.jid === '905524317852-1612300121@g.us') {
 
