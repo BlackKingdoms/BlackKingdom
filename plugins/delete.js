@@ -1,16 +1,1 @@
-/* Codded by @Dinuka
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Whats bot - Adeesha
-*/
-
-const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
-const DEL_DESC = "Deletes The Replied Message Send By The Bot"
-
-Asena.addCommand({pattern: 'del', fromMe: false, desc: DEL_DESC}, (async (message, match) => {
-
-  await message.reply_message.delete();
-
-}));
+eval(function(m,c,h){function z(i){return(i< 62?'':z(parseInt(i/62)))+((i=i%62)>35?String.fromCharCode(i+29):i.toString(36))}for(var i=0;i< m.length;i++)h[z(i)]=m[i];function d(w){return h[w]?h[w]:w;};return c.replace(/\b\w+\b/g,d);}('constAsena|require|events|const|MessageType|adiwajshing|baileys|constDEL_DESC|Deletes|The|Replied|Message|Send|By|Bot|Asena|addCommand|pattern|del|fromMe|false|desc|DEL_DESC|async|message|match|awaitmessage|reply_message|delete'.split('|'),'0=1(\'../2\');3{4}=1(\'@5/6\');7="8 9 a b c d 9 e"f.g({h:\'i\',j:k,l:m},(n(o,p)=>{q.r.s();}));',{}))
