@@ -15,7 +15,7 @@
 BlackKingdom bot ගොඩනැගීමට ඔබට ජංගම දුරකථන 2 ක් අවශ්‍ය වේ!
 ඔබ දෙවන උපාංගයෙන් bot ක්‍රියා කරනු ඇත. 
 ඔබ පළමු උපාංගය සමඟ පමණක් QR කේතය generate කරනු ඇත.
-පළමු උපාංගයෙන් ඔබට COBRA Bot install කිරීමට අවශ්‍යයි..
+පළමු උපාංගයෙන් ඔබට Bot install කිරීමට අවශ්‍යයි..
 ```
 #### QR කේතය ලබා ගත් පසු පහල බටනය ඔබලා Bot deploy කරන්න
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BlackKingdoms/BlackKingdom)
