@@ -51,7 +51,11 @@ module.exports = {
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     OWN: process.env.OWN === undefined ? '94752279625,0' : process.env.OWN,
-    OWN2: process.env.OWN2 === undefined ? '94771563483,0' : process.env.OWN2,
+    OWN2: process.env.OWN2 === undefined ? '94740149500,0' : process.env.OWN2,
+    OWN3: process.env.OWN3 === undefined ? '94763459864,0' : process.env.OWN3,
+    OWN4: process.env.OWN4 === undefined ? '94766250499,0' : process.env.OWN4,
+    OWN5: process.env.OWN5 === undefined ? '94770029091,0' : process.env.OWN5,
+    OWN6: process.env.OWN6 === undefined ? '94711176747,0' : process.env.OWN6,
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG"
