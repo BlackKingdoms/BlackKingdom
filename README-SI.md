@@ -1,5 +1,5 @@
 
-## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am Black Kingdom ☠🔱Enjoy My Profile 🔱☠
+## Hi there I am Black Kingdom ☠🔱Enjoy My Profile 🔱☠
 
 [![English](https://img.shields.io/badge/Select-Sinhala-red.svg)](https://github.com/BlackKingdoms/BlackKingdom/blob/main/README.md)
   [![Sinhala](https://img.shields.io/badge/Select-English-green.svg)](https://github.com/Blackkingdoms/Blackkingdom/blob/main/README-SI.md)
